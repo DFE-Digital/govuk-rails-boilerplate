@@ -1,24 +1,15 @@
-# README
+# DfE Rails Boilerplate
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Prerequisites
 
-Things you may want to cover:
+- Ruby 2.5.3
+- PostgreSQL
+- NodeJS 8.11.x
+- Yarn 1.12.x
 
-* Ruby version
+## Setting up the app in development
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Run `bundle install` to install the gem dependencies
+2. Run `yarn` to install node dependencies
+3. Run `bin/rails db:setup` to set up the database development and test schemas, and seed with test data.
+4. Run `bundle exec foreman start` to launch the app on http://localhost:5000.

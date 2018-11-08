@@ -60,4 +60,10 @@ Rails.application.configure do
   # Use an evented file watcher to asynchronously detect changes in source code,
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
+
+  config.sass.inline_source_maps = true
+
+  # Automatically inject JavaScript needed for LiveReload
+  # https://shift.infinite.red/how-to-set-up-sass-live-reloading-in-rails-using-style-injection-366f979564bc
+  config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
 end

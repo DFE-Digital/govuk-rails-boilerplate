@@ -39,6 +39,12 @@ group :development, :test do
 
   # GOV.UK interpretation of rubocop for linting Ruby
   gem 'govuk-lint'
+
+  # Debugging
+  gem 'pry-byebug'
+
+  # Testing framework
+  gem 'rspec-rails', '~> 3.8'
 end
 
 group :development do

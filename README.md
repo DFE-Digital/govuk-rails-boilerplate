@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/DFE-Digital/dfe-rails-boilerplate.svg?branch=master)](https://travis-ci.com/DFE-Digital/dfe-rails-boilerplate)
+
 # DfE Rails Boilerplate
 
 ## Prerequisites

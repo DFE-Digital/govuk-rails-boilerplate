@@ -62,8 +62,4 @@ Rails.application.configure do
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
   config.sass.inline_source_maps = true
-
-  # Automatically inject JavaScript needed for LiveReload
-  # https://shift.infinite.red/how-to-set-up-sass-live-reloading-in-rails-using-style-injection-366f979564bc
-  config.middleware.insert_after(ActionDispatch::Static, Rack::LiveReload)
 end

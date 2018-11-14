@@ -59,10 +59,7 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  gem "guard", require: false
-  gem "guard-livereload", require: false
-  gem "rack-livereload"
-  gem "rb-fsevent", require: false
+  gem 'browser_sync_rails'
 end
 
 group :test do

@@ -16,6 +16,18 @@
 3. Run `bin/rails db:setup` to set up the database development and test schemas, and seed with test data.
 4. Run `bundle exec foreman start -f Procfile.dev` to launch the app on http://localhost:5000.
 
+## Whats included in this boilerplate?
+
+- Rails 5.2 with Webpacker
+- SassC (replacement for deprecated sass-rails)
+- [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend)
+- [GOV.UK Lint](https://github.com/alphagov/govuk-lint)
+- Autoprefixer rails
+- Browsersync
+- RSpec
+- Dotenv (managing environment variables)
+- Travis with heroku deployment
+
 ## DfE SignIn
 
 Example https://github.com/DFE-Digital/login.dfe.examples.rails

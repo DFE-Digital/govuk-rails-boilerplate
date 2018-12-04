@@ -80,6 +80,7 @@ test:
 #
 production:
   <<: *default
-  database: rails-dfe-boilerplate_production
-  username: rails-dfe-boilerplate
-  password: <%= ENV['RAILS-DFE-BOILERPLATE_DATABASE_PASSWORD'] %>
+  host: <%= ENV['DB_HOST'] %>
+  database: <%= ENV['DB_DATABASE'] %>
+  username: <%= ENV['DB_USERNAME'] %>
+  password: <%= ENV['DB_PASSWORD'] %>

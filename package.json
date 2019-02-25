@@ -1,9 +1,12 @@
 {
   "dependencies": {
     "@rails/webpacker": "3.5",
-    "govuk-frontend": "^2.3.0"
+    "govuk-frontend": "^2.3.0",
+    "rails-ujs": "^5.2.2",
+    "turbolinks": "^5.2.0"
   },
   "devDependencies": {
-    "webpack-dev-server": "2.11.2"
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "3.0.0"
   }
 }

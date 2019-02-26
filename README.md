@@ -26,10 +26,24 @@
 - Dotenv (managing environment variables)
 - Travis with Heroku deployment
 
+## Running specs, linter(without auto correct) and annotate models and serializers
+```
+bundle exec rake
+```
+
+## Running specs
+```
+bundle exec rspec
+```
+
 ## Linting
 
 It's best to lint just your app directories and not those belonging to the framework, e.g.
 
 ```bash
-bundle exec govuk-lint-ruby app config db lib spec --format clang
+bundle exec govuk-lint-ruby app config db lib spec Gemfile --format clang -a
+
+or
+
+bundle exec govuk-lint-sass app/webpacker/styles
 ```

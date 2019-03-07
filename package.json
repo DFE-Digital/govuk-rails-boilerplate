@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "@rails/webpacker": "3.5",
+    "copy-webpack-plugin": "4.6.0",
     "govuk-frontend": "^2.3.0",
     "rails-ujs": "^5.2.2",
     "turbolinks": "^5.2.0"

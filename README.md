@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/DFE-Digital/govuk-rails-boilerplate.svg?branch=master)](https://travis-ci.com/DFE-Digital/govuk-rails-boilerplate)
+[![Build Status](https://travis-ci.org/DFE-Digital/govuk-rails-boilerplate.svg?branch=master)](https://travis-ci.com/DFE-Digital/govuk-rails-boilerplate) [![Greenkeeper badge](https://badges.greenkeeper.io/DFE-Digital/govuk-rails-boilerplate.svg)](https://greenkeeper.io/)
 
 # GOV.UK Rails Boilerplate
 

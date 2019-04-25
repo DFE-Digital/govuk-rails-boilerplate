@@ -1,4 +1,7 @@
 {
+  "engines": {
+    "node": "8.11.2"
+  },
   "dependencies": {
     "@rails/webpacker": "^4.0.2",
     "copy-webpack-plugin": "^5.0.0",

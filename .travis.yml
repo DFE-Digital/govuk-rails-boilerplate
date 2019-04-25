@@ -8,7 +8,7 @@ addons:
   postgresql: "9.6"
 install:
   - bundle install
-  - nvm install node
+  - nvm install 8.11.2
   - node -v
   - npm i -g yarn
   - yarn

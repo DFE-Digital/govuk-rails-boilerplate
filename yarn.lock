@@ -3112,10 +3112,10 @@ globule@^1.0.0:
     lodash "~4.17.10"
     minimatch "~3.0.2"
 
-govuk-frontend@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/govuk-frontend/-/govuk-frontend-2.3.0.tgz#e868bc7b99cdd0b08e3d022351b908ebe20e8133"
-  integrity sha512-LRg8HH4657V+pDWO6wyKQLPcdsU0RJmkFHkKjj72MP5CQAg4VSWU9I5IdemHwmCcnaTAgk+ygS5e9+jd5Iz+mQ==
+govuk-frontend@^2.12.0:
+  version "2.12.0"
+  resolved "https://registry.yarnpkg.com/govuk-frontend/-/govuk-frontend-2.12.0.tgz#6e90372fe6088d4053a6f14fd031a1cead6e81e5"
+  integrity sha512-RiEKwbM24xCK/Be/NcWQUUkGXlqxk6r15aRIMCzSttDLcZcXgs9As0qfXUCEfIei5X/GuL23lpBGGYmoVNwuJw==
 
 graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2:
   version "4.1.15"

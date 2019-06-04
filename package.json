@@ -3,7 +3,7 @@
     "node": "8.11.2"
   },
   "dependencies": {
-    "@rails/webpacker": "^4.0.6",
+    "@rails/webpacker": "^4.0.7",
     "copy-webpack-plugin": "^5.0.3",
     "govuk-frontend": "^2.12.0",
     "rails-ujs": "^5.2.3",

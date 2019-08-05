@@ -4,4 +4,4 @@
 Rails.application.config.assets.version = '1.0'
 
 # Add GOVUK frontend asset path
-Rails.application.config.assets.paths << Rails.root.join("node_modules", "govuk-frontend", "assets")
+Rails.application.config.assets.paths << Rails.root.join("node_modules", "govuk-frontend", "govuk", "assets")

@@ -41,7 +41,7 @@ group :development, :test do
   gem "pry-byebug"
 
   # Testing framework
-  gem "rspec-rails", "~> 4.0.0.beta2"
+  gem "rspec-rails", "~> 4.0.0.beta3"
 
   gem "dotenv-rails"
 end

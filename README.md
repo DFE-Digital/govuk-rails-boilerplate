@@ -41,9 +41,9 @@ bundle exec rspec
 It's best to lint just your app directories and not those belonging to the framework, e.g.
 
 ```bash
-bundle exec govuk-lint-ruby app config db lib spec Gemfile --format clang -a
+bundle exec rubocop app config db lib spec Gemfile --format clang -a
 
 or
 
-bundle exec govuk-lint-sass app/webpacker/styles
+bundle exec scss-lint app/webpacker/styles
 ```

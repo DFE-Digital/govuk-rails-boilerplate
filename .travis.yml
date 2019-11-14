@@ -16,8 +16,7 @@ before_script:
   - bundle exec rake db:create db:migrate RAILS_ENV=test
 script:
   - bundle exec rails webpacker:compile
-  - bundle exec rails spec
-  - bundle exec govuk-lint-ruby app config db lib spec --format clang
+  - bundle exec rake
 deploy:
   provider: heroku
   api_key:

@@ -32,7 +32,8 @@ group :development, :test do
   gem "byebug", platforms: %i[mri mingw x64_mingw]
 
   # GOV.UK interpretation of rubocop for linting Ruby
-  gem "govuk-lint"
+  gem "rubocop-govuk"
+  gem "scss_lint-govuk"
 
   # Debugging
   gem "pry-byebug"

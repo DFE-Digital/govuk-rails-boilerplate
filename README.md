@@ -19,7 +19,7 @@
 
 ## Whats included in this boilerplate?
 
-- Rails 5.2 with Webpacker
+- Rails 6.0 with Webpacker
 - [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend)
 - [GOV.UK Lint](https://github.com/alphagov/govuk-lint)
 - RSpec

@@ -1,6 +1,6 @@
 ---
 applications:
-- name: govuk-rails-boilerplate
+- name: govuk-rails-boilerplate-paas-demo
   buildpacks:
     - https://github.com/cloudfoundry/ruby-buildpack.git
     - https://github.com/cloudfoundry/nodejs-buildpack

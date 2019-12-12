@@ -1,0 +1,8 @@
+deploy/
+scripts/
+tmp/
+!tmp/.keep
+node_modules/
+log/*.log
+**/.git
+coverage/

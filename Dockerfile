@@ -26,7 +26,7 @@ RUN chown -R deploy:deploy /usr/local/bundle/
 USER 1001
 
 
-# install all gems 
+# install all gems
 COPY --chown=deploy:deploy Gemfile Gemfile.lock .ruby-version ./
 ARG BUNDLE_FLAGS="--jobs 2 --no-cache --without development test"
 RUN bundle install ${BUNDLE_FLAGS}
@@ -48,4 +48,4 @@ RUN RAILS_ENV=${RAILS_ENV} SECRET_KEY_BASE=$(bin/rake secret) bundle exec rails 
 
 # run the rails server
 ARG RAILS_ENV=production
-CMD bundle exec rake db:migrate && bundle exec rake data:migrate && bundle exec rails s -e ${RAILS_ENV} -p ${APP_PORT} --binding=0.0.0.0
+CMD bundle exec rake db:migrate && bundle exec rake db:migrate && bundle exec rails s -e ${RAILS_ENV} -p ${APP_PORT} --binding=0.0.0.0

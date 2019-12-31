@@ -40,6 +40,8 @@ group :development, :test do
 
   # Testing framework
   gem "rspec-rails", "~> 4.0.0.beta3"
+  # Adds support for Capybara system testing and selenium driver
+  gem "capybara", "~> 3.30"
 
   gem "dotenv-rails"
 end
@@ -55,12 +57,7 @@ group :development do
 end
 
 group :test do
-  # Adds support for Capybara system testing and selenium driver
-  gem "capybara", ">= 2.15"
-
-  gem "selenium-webdriver"
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem "chromedriver-helper"
+  gem "webdrivers", "~> 3.0"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

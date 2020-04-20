@@ -3,7 +3,7 @@
     "node": "12.13.1"
   },
   "dependencies": {
-    "@rails/webpacker": "^5.0.1",
+    "@rails/webpacker": "^5.1.0",
     "govuk-frontend": "^3.6.0",
     "rails-ujs": "^5.2.4",
     "serialize-javascript": "^3.0.0",

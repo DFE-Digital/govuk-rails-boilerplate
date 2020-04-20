@@ -41,7 +41,7 @@ group :development, :test do
   # Testing framework
   gem "rspec-rails", "~> 4.0.0"
   # Adds support for Capybara system testing and selenium driver
-  gem "capybara", "~> 3.31"
+  gem "capybara", "~> 3.32"
 
   gem "dotenv-rails"
 end

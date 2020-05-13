@@ -30,5 +30,7 @@ module GovukRailsBoilerplate
     # the framework and any gems in your application.
 
     config.exceptions_app = routes
+
+    config.middleware.use Rack::Deflater
   end
 end

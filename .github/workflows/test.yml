@@ -73,7 +73,11 @@ jobs:
         run: yarn install
 
       - name: Set up test database
-        run: bin/rails db:create db:schema:load
+        run: bin/rails db:prepare
+        env:
+          DATABASE_URL: postgres://postgres:@localhost:5432/test
 
       - name: Run tests
         run: bundle exec rake
+        env:
+          DATABASE_URL: postgres://postgres:@localhost:5432/test

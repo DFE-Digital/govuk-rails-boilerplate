@@ -85,7 +85,7 @@ GEM
       railties (>= 3.2)
     erubi (1.9.0)
     ffi (1.11.3)
-    foreman (0.87.1)
+    foreman (0.87.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.5)

@@ -2,3 +2,12 @@ inherit_gem:
   rubocop-govuk:
     - config/default.yml
     - config/rails.yml
+
+AllCops:
+  Exclude:
+    - 'bin/*'
+    - 'db/schema.rb'
+    - 'node_modules/**/*'
+    - 'config/application.rb'
+    - 'config/puma.rb'
+    - 'vendor/**/*'

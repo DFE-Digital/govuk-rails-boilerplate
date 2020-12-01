@@ -120,7 +120,7 @@ GEM
       byebug (~> 11.0)
       pry (~> 0.13.0)
     public_suffix (4.0.5)
-    puma (5.0.4)
+    puma (5.1.0)
       nio4r (~> 2.0)
     rack (2.2.3)
     rack-proxy (0.6.5)
@@ -267,7 +267,7 @@ DEPENDENCIES
   listen (>= 3.0.5, < 3.4)
   pg (>= 0.18, < 2.0)
   pry-byebug
-  puma (~> 5.0)
+  puma (~> 5.1)
   rails (~> 6.0.3)
   rspec-rails (~> 4.0.1)
   rubocop-govuk

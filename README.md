@@ -21,6 +21,8 @@
 
 - Rails 6.0 with Webpacker
 - [GOV.UK Frontend](https://github.com/alphagov/govuk-frontend)
+- [GOV.UK Design System Formbuilder](https://github.com/dfe-digital/govuk_design_system_formbuilder/)
+- [GOV.UK Components](https://github.com/dfe-digital/govuk-components)
 - RSpec
 - Dotenv (managing environment variables)
 - Travis with Heroku deployment

@@ -88,13 +88,13 @@ GEM
       dotenv (= 2.7.6)
       railties (>= 3.2)
     erubi (1.10.0)
-    ffi (1.15.0)
+    ffi (1.15.3)
     foreman (0.87.2)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    listen (3.5.1)
+    listen (3.6.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.9.1)
@@ -159,7 +159,7 @@ GEM
       thor (~> 1.0)
     rainbow (3.0.0)
     rake (13.0.3)
-    rb-fsevent (0.10.4)
+    rb-fsevent (0.11.0)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     regexp_parser (2.1.1)
@@ -268,7 +268,7 @@ DEPENDENCIES
   capybara (~> 3.35)
   dotenv-rails
   foreman
-  listen (>= 3.0.5, < 3.6)
+  listen (>= 3.0.5, < 3.7)
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 5.3)

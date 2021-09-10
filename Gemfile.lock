@@ -89,7 +89,7 @@ GEM
       dotenv (= 2.7.6)
       railties (>= 3.2)
     erubi (1.10.0)
-    ffi (1.15.3)
+    ffi (1.15.4)
     foreman (0.87.2)
     globalid (0.5.2)
       activesupport (>= 5.0)
@@ -104,7 +104,7 @@ GEM
       deep_merge (~> 1.2.1)
     i18n (1.8.10)
       concurrent-ruby (~> 1.0)
-    listen (3.6.0)
+    listen (3.7.0)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     loofah (2.12.0)
@@ -281,7 +281,7 @@ DEPENDENCIES
   foreman
   govuk-components
   govuk_design_system_formbuilder
-  listen (>= 3.0.5, < 3.7)
+  listen (>= 3.0.5, < 3.8)
   pg (>= 0.18, < 2.0)
   pry-byebug
   puma (~> 5.3)

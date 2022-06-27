@@ -1,4 +1,4 @@
-![Deploy](https://github.com/DFE-Digital/govuk-rails-boilerplate/workflows/Deploy/badge.svg)
+⚠️ This repository is archived in favour of [Rails template](https://github.com/DFE-Digital/rails-template)
 
 # GOV.UK Rails Boilerplate
 
